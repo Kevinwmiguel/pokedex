@@ -1,3 +1,4 @@
+/*Pokemon Model*/
 class Pokemon {
     name;
     number;
