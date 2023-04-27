@@ -1,0 +1,252 @@
+/*Contente*/
+ol,
+ul,
+li {
+    list-style: none;
+    padding: 0;
+}
+
+
+/*Containers*/
+#pokeChoose {
+    padding: 0;
+}
+
+.Information-Details {
+    padding: 1rem;
+    background-color: #fff;
+    width: 60rem;
+    border-radius: 1rem;
+    text-align: center;
+    background-image: url('/img/o8a7u5vl6hb41.png');
+    background-position: center;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+/*image*/
+
+#pokeChoose #img {
+    border-radius: 10%;
+    height: 200px;
+}
+
+
+.full-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+/*Information*/
+#information {
+    margin: 0;
+    width: 100%;
+    border-radius: 30px;
+    box-sizing: border-box;
+    height: 300px;
+}
+
+#Skills-inform {
+    margin-left: 6rem;
+    position: absolute;
+
+}
+
+#status-inform {
+    position: absolute;
+    margin-left: 18rem;
+}
+
+#extra-inform {
+    position: absolute;
+    margin-left: 34rem;
+}
+
+.box {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+/*buttons*/
+.buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+#skills,
+#Status,
+#extra {
+    background-color: #bccbcb;
+}
+
+#Skills-inform span {
+    background-color: #ebe9e9;
+    border-radius: 15px;
+    padding: 5px;
+    color: #000;
+}
+
+#status-inform span {
+    border-radius: 50%;
+    padding: 5px;
+    filter: brightness(1.1);
+
+}
+
+#extra-inform span {
+    border-radius: 50%;
+    padding: 5px;
+    color: #000;
+    text-align: center;
+}
+
+#Skills-inform {
+    margin-top: 0.7rem;
+    margin-left: 6rem;
+}
+
+#status-inform {
+    margin-top: 0.7rem;
+    margin-left: 19.5rem;
+}
+
+#extra-inform {
+    margin-top: 0.7rem;
+    margin-left: 41rem;
+    text-align: center;
+}
+
+
+.type {
+    border-radius: 15%;
+    width: 4.75rem;
+    padding: 0.4rem;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #ffff;
+    filter: brightness(1.2);
+    margin-left: 5px;
+}
+
+.espaco {
+    background-color: #ebe9e9;
+
+}
+
+.hp,
+.attack,
+.defense,
+.special_attack,
+.special_defense,
+.speed {
+    background-color: #b9b7cff3;
+}
+
+#extradt,
+#extradt1,
+#extradt2 {
+    background-color: #b9b7cff3;
+}
+
+#extradt1 {
+    font-size: 13px;
+}
+
+.detail .types {
+
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+
+/*name*/
+
+.pokemon .name {
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+
+
+/*status*/
+.types {
+    height: 50px;
+    width: 200px;
+}
+
+
+/*Color type*/
+.normal {
+    background-color: #a6a877;
+}
+
+.grass {
+    background-color: #77c850;
+}
+
+.fire {
+    background-color: #ee7f30;
+}
+
+.water {
+    background-color: #678fee;
+}
+
+.electric {
+    background-color: #f7cf2e;
+}
+
+.ice {
+    background-color: #98d5d7;
+}
+
+.ground {
+    background-color: #dfbf69;
+}
+
+.flying {
+    background-color: #a98ff0;
+}
+
+.poison {
+    background-color: #a040a0;
+}
+
+.fighting {
+    background-color: #bf3029;
+}
+
+.psychic {
+    background-color: #f65687;
+}
+
+.dark {
+    background-color: #725847;
+}
+
+.rock {
+    background-color: #b8a137;
+}
+
+.bug {
+    background-color: #a8b720;
+}
+
+.ghost {
+    background-color: #6e5896;
+}
+
+.steel {
+    background-color: #b9b7cf;
+}
+
+.dragon {
+    background-color: #6f38f6;
+}
+
+.fairy {
+    background-color: #f9aec7;
+}

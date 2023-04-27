@@ -7,7 +7,7 @@
 
 
 header {
-    margin-left: 200px;
+    text-align: center;
 }
 
 body {
@@ -19,6 +19,17 @@ body {
     background-color: #fff;
     width: 100vw;
     height: 100vh;
+}
+
+.content-details {
+    padding: 1rem;
+    background-color: #fff;
+    width: 50rem;
+    height: 37.5rem;
+    border-radius: 1rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .pagination {
@@ -36,7 +47,11 @@ body {
     border-radius: 1rem;
     color: #fff;
     padding: .25rem .5rem;
-    font-size: .625rem;
+    font-size: .9rem;
     margin: .25rem 0;
     cursor: pointer;
+}
+
+h1 {
+    text-align: center;
 }

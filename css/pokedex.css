@@ -1,4 +1,6 @@
 /*Full Pokedex Details Customization*/
+
+
 .pokemons {
     list-style: none;
     padding: 0;
@@ -7,10 +9,14 @@
     grid-template-columns: 1fr;
 }
 
+.teste {
+    background-color: #678fee;
+}
+
 .pokemon {
     margin: 0.5rem;
     padding: 1rem;
-
+    cursor: pointer;
     color: #fff;
     border-radius: 1rem;
     display: flex;
@@ -21,6 +27,23 @@
     background-color: red;
 }
 
+.status {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.box {
+    display: block;
+    padding: 5rem;
+    position: relative;
+}
+
+.espaco {
+    position: absolute;
+    margin-bottom: 15rem;
+    box-sizing: border-box;
+
+}
 
 .pokemon .name {
     color: #fff;
@@ -141,6 +164,11 @@
     background-color: #f9aec7;
 }
 
+@media screen and (max-width: 340px) {
+    .pokemons {
+        grid-template-columns: 1fr;
+    }
+}
 
 @media screen and (min-width: 380px) {
     .pokemons {
@@ -148,17 +176,16 @@
     }
 }
 
-@media screen and (min-width: 992px) {
-    .content {
-        max-width: 992px;
-        height: auto;
-        margin: 1rem auto;
-        border-radius: 1rem;
-    }
-}
-
 @media screen and (min-width: 576px) {
     .pokemons {
         grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .pokemons {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        max-width: 992px;
+        margin: 0;
     }
 }

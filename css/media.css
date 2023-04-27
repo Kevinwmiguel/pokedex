@@ -1,0 +1,814 @@
+@media screen and (max-width: 950px) {
+    .Information-Details {
+        padding: 1rem;
+        background-color: #fff;
+        width: 24rem;
+        border-radius: 1rem;
+        text-align: center;
+        height: 70rem;
+        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-size: cover;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .types li {
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 2px solid #000;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+    }
+
+    #information {
+        height: 50rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*buttons*/
+    .buttons {
+        display: block;
+    }
+
+    #skills,
+    #Status,
+    #extra {
+        background-color: #bccbcb;
+        display: block;
+        position: absolute;
+    }
+
+    #skills {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #Status {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+
+    #extra {
+        margin-top: 26rem;
+        margin-left: 9rem;
+    }
+
+    #Skills-inform,
+    #status-inform,
+    #extra-inform {
+
+        position: absolute;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    #Skills-inform {
+        margin-top: 3rem;
+        margin-left: 7.5rem;
+    }
+
+    #status-inform {
+        margin-top: 14rem;
+        margin-left: 2rem;
+    }
+
+    #extra-inform {
+        margin-top: 29rem;
+        margin-left: 3.3rem;
+    }
+
+
+    #Skills-inform span {
+        background-color: #ebe9e9;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #status-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        filter: brightness(1.1);
+
+    }
+
+    #extra-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        color: #000;
+    }
+
+    .type {
+
+        width: 4.75rem;
+        padding: 0.4rem;
+        display: block;
+        text-transform: uppercase;
+        color: #ffff;
+        filter: brightness(1.2);
+        margin-left: 5px;
+
+    }
+
+    #pokeChoose #img {
+        border-radius: 10%;
+        height: 150px;
+    }
+
+    .full-container {
+        display: block;
+
+    }
+
+    .back button {
+        height: 35px;
+        width: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .espaco {
+        background-color: #ebe9e9;
+
+    }
+
+    .hp,
+    .attack,
+    .defense,
+    .special_attack,
+    .special_defense,
+    .speed {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt,
+    #extradt1,
+    #extradt2 {
+        background-color: #b9b7cff3;
+    }
+
+
+}
+
+@media screen and (max-width: 890px) {
+    .Information-Details {
+        padding: 1rem;
+        background-color: #fff;
+        width: 24rem;
+        border-radius: 1rem;
+        text-align: center;
+        height: 70rem;
+        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-size: cover;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .types li {
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 2px solid #000;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+    }
+
+    #information {
+        height: 50rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*buttons*/
+    .buttons {
+        display: block;
+    }
+
+    #skills,
+    #Status,
+    #extra {
+        background-color: #bccbcb;
+        display: block;
+        position: absolute;
+    }
+
+    #skills {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #Status {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+
+    #extra {
+        margin-top: 26rem;
+        margin-left: 9rem;
+    }
+
+    #Skills-inform,
+    #status-inform,
+    #extra-inform {
+
+        position: absolute;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    #Skills-inform {
+        margin-top: 3rem;
+        margin-left: 7.5rem;
+    }
+
+    #status-inform {
+        margin-top: 14rem;
+        margin-left: 2rem;
+    }
+
+    #extra-inform {
+        margin-top: 29rem;
+        margin-left: 3.3rem;
+    }
+
+
+    #Skills-inform span {
+        background-color: #ebe9e9;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #status-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        filter: brightness(1.1);
+
+    }
+
+    #extra-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        color: #000;
+    }
+
+    .type {
+
+        width: 4.75rem;
+        padding: 0.4rem;
+        display: block;
+        text-transform: uppercase;
+        color: #ffff;
+        filter: brightness(1.2);
+        margin-left: 5px;
+
+    }
+
+    #pokeChoose #img {
+        border-radius: 10%;
+        height: 150px;
+    }
+
+    .full-container {
+        display: block;
+
+    }
+
+    .back button {
+        height: 35px;
+        width: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .espaco {
+        background-color: #ebe9e9;
+
+    }
+
+    .hp,
+    .attack,
+    .defense,
+    .special_attack,
+    .special_defense,
+    .speed {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt,
+    #extradt1,
+    #extradt2 {
+        background-color: #b9b7cff3;
+    }
+
+
+}
+
+@media screen and (max-width: 430px) {
+    .Information-Details {
+        padding: 1rem;
+        background-color: #fff;
+        width: 24rem;
+        border-radius: 1rem;
+        text-align: center;
+        height: 70rem;
+        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-size: cover;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .types li {
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 2px solid #000;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+    }
+
+    #information {
+        height: 50rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*buttons*/
+    .buttons {
+        display: block;
+    }
+
+    #skills,
+    #Status,
+    #extra {
+        background-color: #bccbcb;
+        display: block;
+        position: absolute;
+    }
+
+    #skills {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #Status {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+
+    #extra {
+        margin-top: 26rem;
+        margin-left: 9rem;
+    }
+
+    #Skills-inform,
+    #status-inform,
+    #extra-inform {
+
+        position: absolute;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    #Skills-inform {
+        margin-top: 3rem;
+        margin-left: 7.5rem;
+    }
+
+    #status-inform {
+        margin-top: 14rem;
+        margin-left: 2rem;
+    }
+
+    #extra-inform {
+        margin-top: 29rem;
+        margin-left: 3.3rem;
+    }
+
+
+    #Skills-inform span {
+        background-color: #ebe9e9;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #status-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        filter: brightness(1.1);
+
+    }
+
+    #extra-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        color: #000;
+    }
+
+    .type {
+
+        width: 4.75rem;
+        padding: 0.4rem;
+        display: block;
+        text-transform: uppercase;
+        color: #ffff;
+        filter: brightness(1.2);
+        margin-left: 5px;
+
+    }
+
+    #pokeChoose #img {
+        border-radius: 10%;
+        height: 150px;
+    }
+
+    .full-container {
+        display: block;
+
+    }
+
+    .back button {
+        height: 35px;
+        width: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .espaco {
+        background-color: #ebe9e9;
+
+    }
+
+    .hp,
+    .attack,
+    .defense,
+    .special_attack,
+    .special_defense,
+    .speed {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt,
+    #extradt1,
+    #extradt2 {
+        background-color: #b9b7cff3;
+    }
+
+
+}
+
+@media screen and (max-width: 380px) {
+    .Information-Details {
+        padding: 1rem;
+        background-color: #fff;
+        width: 24rem;
+        border-radius: 1rem;
+        text-align: center;
+        height: 70rem;
+        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-size: cover;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .types li {
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 2px solid #000;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+    }
+
+    #information {
+        height: 50rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*buttons*/
+    .buttons {
+        display: block;
+    }
+
+    #skills,
+    #Status,
+    #extra {
+        background-color: #bccbcb;
+        display: block;
+        position: absolute;
+    }
+
+    #skills {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #Status {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+
+    #extra {
+        margin-top: 29rem;
+        margin-left: 9rem;
+    }
+
+    #Skills-inform,
+    #status-inform,
+    #extra-inform {
+
+        position: absolute;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    #Skills-inform {
+        margin-top: 3rem;
+        margin-left: 7.5rem;
+    }
+
+    #status-inform {
+        margin-top: 14rem;
+        margin-left: 5.5rem;
+    }
+
+    #extra-inform {
+        margin-top: 31rem;
+        margin-left: 5.5rem;
+        text-align: center;
+    }
+
+
+    #Skills-inform span {
+        background-color: #ebe9e9;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #status-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        filter: brightness(1.1);
+
+    }
+
+    #extra-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        color: #000;
+        text-align: center;
+    }
+
+    .type {
+
+        width: 4.75rem;
+        padding: 0.4rem;
+        display: block;
+        text-transform: uppercase;
+        color: #ffff;
+        filter: brightness(1.2);
+        margin-left: 5px;
+
+    }
+
+    #pokeChoose #img {
+        border-radius: 10%;
+        height: 150px;
+    }
+
+    .full-container {
+        display: block;
+
+    }
+
+    .back button {
+        height: 35px;
+        width: 75px;
+    }
+
+    .espaco {
+        background-color: #ebe9e9;
+
+    }
+
+    .hp,
+    .attack,
+    .defense,
+    .special_attack,
+    .special_defense,
+    .speed {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt,
+    #extradt1,
+    #extradt2 {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt1 {
+        font-size: 13px;
+    }
+
+
+}
+
+@media screen and (max-width: 280px) {
+    .Information-Details {
+        padding: 1rem;
+        background-color: #fff;
+        width: 24rem;
+        border-radius: 1rem;
+        text-align: center;
+        height: 70rem;
+        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-size: cover;
+        margin: 0;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+    .types li {
+        display: inline-block;
+    }
+
+    h1 {
+        color: #fff;
+        text-shadow: 2px solid #000;
+    }
+
+    h2 {
+        color: rgb(0, 0, 0);
+    }
+
+    #information {
+        height: 50rem;
+        width: 22rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    /*buttons*/
+    .buttons {
+        display: block;
+    }
+
+    #skills,
+    #Status,
+    #extra {
+        background-color: #bccbcb;
+        display: block;
+        position: absolute;
+    }
+
+    #skills {
+        margin-top: 0rem;
+        margin-left: 9.2rem;
+    }
+
+    #Status {
+        margin-top: 12rem;
+        margin-left: 9rem;
+    }
+
+    #extra {
+        margin-top: 29rem;
+        margin-left: 9rem;
+    }
+
+    #Skills-inform,
+    #status-inform,
+    #extra-inform {
+
+        position: absolute;
+        margin: 0;
+        margin-top: 3rem;
+    }
+
+    #Skills-inform {
+        margin-top: 3rem;
+        margin-left: 7.5rem;
+    }
+
+    #status-inform {
+        margin-top: 14rem;
+        margin-left: 6.5rem;
+    }
+
+    #extra-inform {
+        margin-top: 31rem;
+        margin-left: 6.5rem;
+        text-align: center;
+    }
+
+
+    #Skills-inform span {
+        background-color: #ebe9e9;
+        border-radius: 15px;
+        padding: 5px;
+        color: #000;
+    }
+
+    #status-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        filter: brightness(1.1);
+
+    }
+
+    #extra-inform span {
+        border-radius: 50%;
+        padding: 5px;
+        color: #000;
+        text-align: center;
+    }
+
+    .type {
+
+        width: 4.75rem;
+        padding: 0.4rem;
+        display: block;
+        text-transform: uppercase;
+        color: #ffff;
+        filter: brightness(1.2);
+        margin-left: 5px;
+
+    }
+
+    #pokeChoose #img {
+        border-radius: 10%;
+        height: 150px;
+    }
+
+    .full-container {
+        display: block;
+
+    }
+
+    .back button {
+        height: 35px;
+        width: 75px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .espaco {
+        background-color: #ebe9e9;
+
+    }
+
+    .hp,
+    .attack,
+    .defense,
+    .special_attack,
+    .special_defense,
+    .speed {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt,
+    #extradt1,
+    #extradt2 {
+        background-color: #b9b7cff3;
+    }
+
+    #extradt1 {
+        font-size: 13px;
+    }
+
+
+}
