@@ -2,7 +2,7 @@
  Pokedex Api 1Gen° Pokemon Dio
 
 
-Project Link: https://kevinwmiguel.github.io/
+Project Link: https://kevinwmiguel.github.io/pokedex
 <br>
 To Pokemon Status Change the ID : https://kevinwmiguel.github.io/pokedex/pokemon%20details.html?id=1
 
