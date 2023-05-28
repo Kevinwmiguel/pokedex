@@ -6,8 +6,6 @@ Project Link: https://kevinwmiguel.github.io/pokedex
 <br>
 To Pokemon Status Change the ID : https://kevinwmiguel.github.io/pokedex/pokemon%20details.html?id=1
 
-Change the ID Pokemon
-
 The generation can be changed by change the pokeApi.js: Arguments offset and limit
 
 Technologies I used: HTML5, JAVASCRIPT AND CSS3
