@@ -39,7 +39,7 @@ function loadPokemonItens(offset, limit) {
             pkItem.addEventListener('click', () => {
 
                 const pkId = pkItem.getAttribute('data-id');
-                window.location.href = `pokedex/pokemon details.html?id=${pkId}`
+                window.location.href = `/pokedex/pokemon details.html?id=${pkId}`
             });
         });
     });
