@@ -6,31 +6,43 @@ li {
     padding: 0;
 }
 
+.pokeball{
+    width: 7vw;
+    margin-top: -17vh;
+    margin-left: 12vw;
+    position: absolute; 
+}
+.logo{
+    width: 25vw;
+    
+}
 
 /*Containers*/
 #pokeChoose {
     padding: 0;
+    margin: 0;
+
+    height: 60vh;
 }
 
 .Information-Details {
     padding: 1rem;
     background-color: #fff;
-    width: 60rem;
-    border-radius: 1rem;
+    width: 55vw;
+    height: 75vh;
+    border-radius: 5vh;
     text-align: center;
     background-image: url('../img/o8a7u5vl6hb41.png');
     background-position: center;
     background-size: cover;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 /*image*/
-
 #pokeChoose #img {
     border-radius: 10%;
-    height: 200px;
+    height: 10vw;
 }
 
 
@@ -42,38 +54,81 @@ li {
 /*Information*/
 #information {
     margin: 0;
-    width: 100%;
-    border-radius: 30px;
+    width: 53vw;
+    border-radius: 2vh;
     box-sizing: border-box;
-    height: 300px;
+    height: 43vh;
 }
 
 #Skills-inform {
-    margin-left: 6rem;
+    margin-left: 6vh;
     position: absolute;
-
+    margin-top: 1vh;
+    margin-left: 5.5vw;
+}
+#Skills-inform span {
+    background-color: #ebe9e9;
+    border-radius: 20%;
+    padding: 0.8vh;
+    margin: 0.5vh;
+    color: #000;
+    font-size: 2vh;
 }
 
 #status-inform {
     position: absolute;
-    margin-left: 18rem;
+    margin-left: 25vh;
+    margin-top: 0.7vh;
+    width: vw;
+    margin-left: 14.5vw;
+    align-items: center;
+}
+
+
+#status-inform span {
+    border-radius: 25%;
+    padding: 0.5vh;
+    
+    margin: 0.5vh;
+    width: 12vh;
+    font-size: 1.7vh;
+    filter: brightness(1.1);
+}
+#status-inform span:nth-child(odd) {
+    margin-left: 13vh;
 }
 
 #extra-inform {
     position: absolute;
-    margin-left: 34rem;
+    margin-left: 0vh;
+    margin-top: 0.7vh;
+    margin-left: 36.7vw;
+    text-align: center;
+}
+
+#extra-inform span {
+    border-radius: 25%;
+    padding: 0.8vh;
+    margin: 0.5vh;
+    color: #000;
+    width: 15vh;
+    font-weight: bolder;
+    font-size: 2vh;
+    align-items: center;
+    text-align: center;
 }
 
 .box {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    padding: 5px;
+    
 }
 
 /*buttons*/
 .buttons {
     display: flex;
     justify-content: space-around;
+    font-size: 2vh;
 }
 
 #skills,
@@ -82,58 +137,20 @@ li {
     background-color: #bccbcb;
 }
 
-#Skills-inform span {
-    background-color: #ebe9e9;
-    border-radius: 15px;
-    padding: 5px;
-    color: #000;
-}
-
-#status-inform span {
-    border-radius: 50%;
-    padding: 5px;
-    filter: brightness(1.1);
-
-}
-
-#extra-inform span {
-    border-radius: 50%;
-    padding: 5px;
-    color: #000;
-    text-align: center;
-}
-
-#Skills-inform {
-    margin-top: 0.7rem;
-    margin-left: 6rem;
-}
-
-#status-inform {
-    margin-top: 0.7rem;
-    margin-left: 19.5rem;
-}
-
-#extra-inform {
-    margin-top: 0.7rem;
-    margin-left: 41rem;
-    text-align: center;
-}
-
-
 .type {
     border-radius: 15%;
-    width: 4.75rem;
-    padding: 0.4rem;
+    width: 9vh;
+    padding: 0.4vh;
     display: inline-block;
     text-transform: uppercase;
     color: #ffff;
-    filter: brightness(1.2);
-    margin-left: 5px;
+    filter: brightness(1.5);
+    margin-left: 1vw;
+    text-shadow: #000 1px 1px;
 }
 
 .espaco {
     background-color: #ebe9e9;
-
 }
 
 .hp,
@@ -152,11 +169,11 @@ li {
 }
 
 #extradt1 {
-    font-size: 13px;
+    font-size: 0.8vw;
+    
 }
 
 .detail .types {
-
     margin-right: auto;
     margin-left: auto;
 }
@@ -166,15 +183,15 @@ li {
 /*name*/
 
 .pokemon .name {
-    font-size: 2rem;
+    font-size: 2vw;
     text-transform: capitalize;
 }
 
 
 /*status*/
 .types {
-    height: 50px;
-    width: 200px;
+    height: 2vw;
+    width: 50vw;
 }
 
 

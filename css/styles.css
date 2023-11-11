@@ -3,22 +3,55 @@
     margin: 0;
     font-family: 'Roboto', sans-serif;
     box-sizing: border-box;
+    
 }
 
+.true{
+    width: 20vw;
+    position: absolute;
+    margin: 0;
+    top: 21vh;
+    left: 2vw;
+}
+
+h1, h2{
+    margin: 0;
+    text-align: center
+}
 
 header {
     text-align: center;
 }
 
+.pokeball{
+    width: 20vw;
+    
+}
+
+.logo{
+    width: 60vw; 
+}
+
 body {
     background-color: #ececec;
+    background-image: url(/img/background_prairie_pokemon_screencapture_by_nemotrex_de8nlib-fullview.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
 }
 
 .content {
     padding: 1rem;
     background-color: #fff;
     width: 100vw;
+    background-color: transparent;
     height: 100vh;
+    
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 15vh;
 }
 
 .content-details {
@@ -30,6 +63,7 @@ body {
     position: relative;
     margin-left: auto;
     margin-right: auto;
+    
 }
 
 .pagination {
@@ -38,17 +72,17 @@ body {
     justify-content: center;
     align-items: center;
     width: 100%;
-    padding: 1rem;
+    padding: 2vh;
 }
 
 .pagination button {
     background-color: #6c79db;
     border: none;
-    border-radius: 1rem;
+    border-radius: 2vh;
     color: #fff;
-    padding: .25rem .5rem;
-    font-size: .9rem;
-    margin: .25rem 0;
+    padding: 1vh 2vh;
+    font-size: 2vh;
+    margin: .25vh 0;
     cursor: pointer;
 }
 

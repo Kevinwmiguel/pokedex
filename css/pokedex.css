@@ -1,6 +1,17 @@
 /*Full Pokedex Details Customization*/
 
 
+.pokeball{
+    width: 5vw;
+    
+}
+h2{
+    text-align: center;
+}
+.logo{
+    width: 20vw; 
+}
+
 .pokemons {
     list-style: none;
     padding: 0;

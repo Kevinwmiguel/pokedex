@@ -5,13 +5,12 @@
         width: 24rem;
         border-radius: 1rem;
         text-align: center;
-        height: 70rem;
+        height: 80vh;
         background-image: url('/img/o8a7u5vl6hb41.png');
         background-size: cover;
         margin: 0;
         margin-left: auto;
         margin-right: auto;
-
     }
 
     .types li {
@@ -166,7 +165,7 @@
         width: 24rem;
         border-radius: 1rem;
         text-align: center;
-        height: 70rem;
+        height: 135vh;
         background-image: url('/img/o8a7u5vl6hb41.png');
         background-size: cover;
         margin: 0;
@@ -174,23 +173,29 @@
         margin-right: auto;
 
     }
+    .true{
+        width: 20vw;
+        position: absolute;
+        margin: 0;
+        top: 2vh;
+        left: 2vw;
+    }
+    h2 > .pokeball {
+        width: 15vw;
+        margin-top: -12vh;
+        margin-left: 19vh;
+    }
+    .logo{
+        width: 60vw; 
+    }
 
     .types li {
         display: inline-block;
     }
 
-    h1 {
-        color: #fff;
-        text-shadow: 2px solid #000;
-    }
-
-    h2 {
-        color: rgb(0, 0, 0);
-    }
-
     #information {
-        height: 50rem;
-        width: 22rem;
+        height: 100vh;
+        width: 64.3vw;
         display: flex;
         flex-direction: column;
     }
@@ -209,18 +214,18 @@
     }
 
     #skills {
-        margin-top: 0rem;
-        margin-left: 9.2rem;
+        margin-top: 8vw;
+        margin-left: 27vw;
     }
 
     #Status {
-        margin-top: 12rem;
-        margin-left: 9rem;
+        margin-top: 30vh;
+        margin-left: 26vw;
     }
 
     #extra {
-        margin-top: 26rem;
-        margin-left: 9rem;
+        margin-top: 70vh;
+        margin-left: 27vw;
     }
 
     #Skills-inform,
@@ -229,47 +234,47 @@
 
         position: absolute;
         margin: 0;
-        margin-top: 3rem;
+        margin-top: 15vh;
     }
 
     #Skills-inform {
-        margin-top: 3rem;
-        margin-left: 7.5rem;
+        margin-top: 9vh;
+        margin-left: 22vw;
     }
 
     #status-inform {
-        margin-top: 14rem;
-        margin-left: 2rem;
+        margin-top: 33.5vh;
+        margin-left: -8vw;
     }
 
     #extra-inform {
-        margin-top: 29rem;
-        margin-left: 3.3rem;
+        margin-top: 74vh;
+        margin-left: 6.7vw;
     }
 
 
     #Skills-inform span {
         background-color: #ebe9e9;
-        border-radius: 15px;
-        padding: 5px;
+        border-radius: 20%;
+        padding: 1.5vw;
         color: #000;
     }
 
     #status-inform span {
-        border-radius: 50%;
-        padding: 5px;
+        border-radius: 20%;
+        padding: 1.5vw;
+        font-size: 3vw;
         filter: brightness(1.1);
 
     }
 
     #extra-inform span {
-        border-radius: 50%;
-        padding: 5px;
+        border-radius: 20%;
+        padding: 1.5vw;
         color: #000;
     }
 
     .type {
-
         width: 4.75rem;
         padding: 0.4rem;
         display: block;
@@ -291,8 +296,8 @@
     }
 
     .back button {
-        height: 35px;
-        width: 75px;
+        height: 5vh;
+        width: 15vw;
         margin-right: auto;
         margin-left: auto;
     }

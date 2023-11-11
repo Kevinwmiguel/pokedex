@@ -9,7 +9,7 @@ const LoadMore = document.getElementById('LoadMore')
 
 const limit = 10;
 let offset = 0;
-const maxrecord = 151
+const maxrecord = 1000
 
 let selectedPokemonId = null;
 
@@ -87,11 +87,11 @@ if (pkId) {
                     </div>
 
                     <div id="extra-inform">
-                        <span id="extradt">Height:</span>
+                        <span id="extradt">Height</span>
                         <span class="espaco">${pokemon.height}</span>
-                        <span id="extradt1">Base experience:</span>
+                        <span id="extradt1">Base experience</span>
                         <span class="espaco">${pokemon.base_experience}</span>
-                        <span id="extradt2">Weight:</span>
+                        <span id="extradt2">Weight</span>
                         <span class="espaco">${pokemon.weight}</span>
                     </div>
                 </div>    
