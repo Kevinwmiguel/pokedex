@@ -13,7 +13,8 @@ Technologies I used: HTML5, JAVASCRIPT AND CSS3
 ![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/13e1d200-5a04-4b1d-b6e2-6afad1f822de)
 
 ## Pokedex Details
-![image](https://user-images.githubusercontent.com/59360014/234942962-23c16dd9-5c02-4ef4-afb1-9faffe388a05.png)
+![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/d11fefea-4de8-4877-92bc-e1369db363a3)
+
 
 
 ## Mobile App Vision
