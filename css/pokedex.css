@@ -1,5 +1,13 @@
 /*Full Pokedex Details Customization*/
 
+body {
+    background-color: #ececec;
+    background-image: url(../img/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+   
+}
 
 .pokeball{
     width: 5vw;
