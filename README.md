@@ -10,8 +10,7 @@ The generation can be changed by change the pokeApi.js: Arguments offset and lim
 
 Technologies I used: HTML5, JAVASCRIPT AND CSS3
 
-![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/6fff3b50-e0e2-4efb-a9fc-c327f38b37c6)
-
+![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/13e1d200-5a04-4b1d-b6e2-6afad1f822de)
 
 ## Pokedex Details
 ![image](https://user-images.githubusercontent.com/59360014/234942962-23c16dd9-5c02-4ef4-afb1-9faffe388a05.png)
