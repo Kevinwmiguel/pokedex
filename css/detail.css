@@ -57,6 +57,7 @@ li {
     width: 53vw;
     border-radius: 2vh;
     box-sizing: border-box;
+    opacity: 0.9;
     height: 43vh;
 }
 

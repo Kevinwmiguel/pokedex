@@ -8,7 +8,7 @@
 
 .true{
     width: 20vw;
-    position: absolute;
+    position: fixed;
     margin: 0;
     top: 21vh;
     left: 2vw;
