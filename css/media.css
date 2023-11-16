@@ -333,7 +333,7 @@
         border-radius: 1rem;
         text-align: center;
         height: 70rem;
-        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-image: URL(../img/o8a7u5vl6hb41.png);
         background-size: cover;
         margin: 0;
         margin-left: auto;
@@ -494,7 +494,7 @@
         border-radius: 1rem;
         text-align: center;
         height: 70rem;
-        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-image: URL(../img/o8a7u5vl6hb41.png);
         background-size: cover;
         margin: 0;
         margin-left: auto;
@@ -659,7 +659,7 @@
         border-radius: 1rem;
         text-align: center;
         height: 70rem;
-        background-image: url('/img/o8a7u5vl6hb41.png');
+        background-image: URL(../img/o8a7u5vl6hb41.png);
         background-size: cover;
         margin: 0;
         margin-left: auto;
