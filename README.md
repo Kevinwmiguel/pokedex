@@ -19,5 +19,6 @@ Technologies I used: HTML5, JAVASCRIPT AND CSS3
 
 ## Mobile App Vision
 
-![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/2adaf98d-70e7-489b-8da0-244fa1aa576c)
+![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/2adaf98d-70e7-489b-8da0-244fa1aa576c) ![image](https://github.com/Kevinwmiguel/pokedex/assets/59360014/79366bba-259f-4204-8c1c-f899a8d042ad)
+
 
