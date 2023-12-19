@@ -185,8 +185,9 @@
     }
     h2 > .pokeball {
         width: 15vw;
-        margin-top: -12vh;
-        margin-left: 19vh;
+        position: absolute;
+        margin-top: -25%;
+        margin-left: 30%;
     }
     .logo{
         width: 60vw; 
@@ -197,8 +198,8 @@
     }
 
     #information {
-        height: 100vh;
-        width: 40vw;
+        height: 115vh;
+        width: 83vw;
         display: flex;
         flex-direction: column;
     }
@@ -217,18 +218,18 @@
     }
 
     #skills {
-        margin-top: 8vw;
-        margin-left: 27vw;
+        margin-top: 15vw;
+        margin-left: 35vw;
     }
 
     #Status {
         margin-top: 30vh;
-        margin-left: 26vw;
+        margin-left: 35vw;
     }
 
     #extra {
         margin-top: 70vh;
-        margin-left: 27vw;
+        margin-left: 35vw;
     }
 
     #Skills-inform,
@@ -241,18 +242,18 @@
     }
 
     #Skills-inform {
-        margin-top: 9vh;
-        margin-left: 20vw;
+        margin-top: 12vh;
+        margin-left: 27vw;
     }
 
     #status-inform {
         margin-top: 33.5vh;
-        margin-left: -8vw;
+        margin-left: -6.4vw;
     }
 
     #extra-inform {
         margin-top: 74vh;
-        margin-left: 6.7vw;
+        margin-left: 11.2vw;
     }
 
 
@@ -325,6 +326,7 @@
         background-color: #b9b7cff3;
     }
 
+    
 
 }
 
@@ -493,10 +495,10 @@
     .Information-Details {
         padding: 1rem;
         background-color: #fff;
-        width: 24rem;
+        width: 40vh;
         border-radius: 1rem;
         text-align: center;
-        height: 70rem;
+        height: 65rem;
         background-image: URL(../img/o8a7u5vl6hb41.png);
         background-size: cover;
         margin: 0;
@@ -520,7 +522,7 @@
 
     #information {
         height: 50rem;
-        width: 22rem;
+        width: 87vw;
         display: flex;
         flex-direction: column;
     }
@@ -539,18 +541,18 @@
     }
 
     #skills {
-        margin-top: 2.4rem;
-        margin-left: 9.2rem;
+        margin-top: 8vh;
+        margin-left: 14.5vh;
     }
 
     #Status {
-        margin-top: 13rem;
-        margin-left: 9rem;
+        margin-top: 15rem;
+        margin-left: 14vh;
     }
 
     #extra {
-        margin-top: 31.4rem;
-        margin-left: 9rem;
+        margin-top: 34rem;
+        margin-left: 15vh;
     }
 
     #Skills-inform,
@@ -563,18 +565,18 @@
     }
 
     #Skills-inform {
-        margin-top: 4.4rem;
-        margin-left: 7rem;
+        margin-top: 12vh;
+        margin-left: 10vh;
     }
 
     #status-inform {
-        margin-top: 15rem;
-        margin-left: -2rem;
+        margin-top: 17rem;
+        margin-left: -4rem;
     }
 
     #extra-inform {
-        margin-top: 34rem;
-        margin-left: 2.5rem;
+        margin-top: 36rem;
+        margin-left: 2vh;
         text-align: center;
     }
 
